@@ -1,0 +1,114 @@
+{
+	"name": "GlobalLevelTemplate",
+	"visualStyles": {
+        "*": {
+            "*": {
+                "title": [{
+                    "show": true,
+                    "fontColor": { "solid": { "color": "#cc6600" } },
+                    "background": { "solid": { "color": "#333333" } },
+                    "alignment": "center",
+                    "fontSize": 12,
+                    "fontFamily": "Verdana"
+                }],
+                "background": [{
+                    "show": true,
+                    "color": { "solid": { "color": "#002a5b" } },
+                    "transparency": 25
+                }],
+                "lockAspect": [{
+                    "show": true
+                }],
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": "#886b01" } },
+                    "radius": 10
+                }],
+                "visualTooltip": [{
+                    "type": "Default"
+                }],
+                "stylePreset": [{
+                    "name": "None"
+                }],
+                "visualHeader": [{
+                    "foreground": { "solid": { "color": "#cc6600" } },
+                    "border": { "solid": { "color": "#333333" } },
+                    "showTooltipButton": true
+                }],
+                "visualHeaderTooltip": [{
+                    "text": "Header tooltip text",
+                    "titleFontColor": { "solid": { "color": "#cc6600" } },
+                    "transparency": 0,
+                    "background": { "solid": { "color": "#002a5b" } }
+                }],
+                "dropShadow": [{
+                    "show": true,
+                    "angle": 100,
+                    "color" : { "solid": { "color": "#002a5b" } },
+                    "position": "Outer",
+                    "preset": "Custom",
+                    "shadowBlur": 20,
+                    "shadowDistance": 10,
+                    "shadowSpread": 7,
+                    "transparency": 25
+				}]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": "#465d85" } },
+		    "image": {
+                            "name": "background",
+                            "scaling": "Fit",
+                            "url": "<Base64 Encode>"
+                            },	
+                    "transparency": 50
+                }],
+                "outspace": [{
+                    "color": { "solid": { "color": "#886b01" } },
+                     "image": {
+                            "name": "outspace",
+                            "scaling": "Fit",
+                            "url": "<Base64 Encode>"
+                            },	
+                    "transparency": 50
+                }],
+                "outspacePane": [{
+                    "backgroundColor": { "solid": { "color": "#ededed" } },
+                    "foregroundColor": { "solid": { "color": "#3e3e3e" } },
+                    "borderColor": { "solid": { "color": "#3e3e3e" } },
+                    "transparency": 0,
+                    "titleSize": 18,
+                    "headerSize": 8,
+                    "fontFamily": "Segoe UI",
+                    "border": true
+                }],
+                "filterCard": [
+		    {
+                        "$id": "Applied",
+                        "backgroundColor": { "solid": { "color": "#0c62fb" } },
+                        "foregroundColor": { "solid": { "color": "#ffffff" } },
+                        "borderColor": { "solid": { "color": "#c2d8fe" } },
+                        "inputBoxColor": { "solid": { "color": "#ffffff" } },
+                        "transparency": 0,
+                        "textSize": 11,
+                        "fontFamily": "Segoe UI",
+                        "border": true
+                    },
+                    {
+                        "$id": "Available",
+                        "backgroundColor": { "solid": { "color": "#c2d8fe" } },
+                        "foregroundColor": { "solid": { "color": "#3e3e3e" } },
+                        "borderColor": { "solid": { "color": "#c2d8fe" } },
+                        "inputBoxColor": { "solid": { "color": "#c2d8fe" } },
+                        "transparency": 0,
+                        "textSize": 10,
+                        "fontFamily": "Segoe UI",
+                        "border": true
+                    }
+		]
+            }
+        }
+    }
+}
